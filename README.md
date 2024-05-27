@@ -6,6 +6,6 @@ Chapter 2: Learning to Find Missing Video Frames with Synthetic Data Augmentatio
 Chapter 5: Drowsiness Detection Utilizing Video Transformers.
 
 Feel free to explore each chapter's folder to find the code. If you have any questions or need further assistance, don't hesitate to reach out. Enjoy exploring!
-
-Per request, code utilized for handling the dataset for chapter 2 is not displayed.
-Utilized dataset for chapter 5 can be found on Kaggle: [UTA-RLDD Videos Cropped By Faces](https://www.kaggle.com/datasets/mathiasviborg/multiview-clip-generated-embeddings)
+## Resources
+- Utilized dataset for chapter 5 can be found on Kaggle: [UTA-RLDD Videos Cropped By Faces](https://www.kaggle.com/datasets/mathiasviborg/multiview-clip-generated-embeddings)
+- Per request, code utilized for handling the dataset for chapter 2 is not displayed.
