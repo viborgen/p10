@@ -360,7 +360,7 @@ def trainerDefinitions(model_ckpt, train_dataset, val_dataset, model, image_proc
 
     early_stopping_callback = EarlyStoppingCallback(
         early_stopping_patience=3,  # Number of evaluations with no improvement after which training will be stopped
-        early_stopping_threshold=0.0, #0.03 # Minimum change in the monitored metric to qualify as an improvement
+        early_stopping_threshold=0.0, #0.00 # Minimum change in the monitored metric to qualify as an improvement
     )
 
     args = TrainingArguments(

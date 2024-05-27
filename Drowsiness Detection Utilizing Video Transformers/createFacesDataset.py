@@ -29,8 +29,6 @@ def load_video(video, path):
     print(f"Unable to open video {video} in path {path}")
     return None, None
 
-
-
 # Load the Haar cascade xml file for face detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
@@ -75,7 +73,6 @@ def resample_and_split_video(video_path, output_dir, new_fps, clip_length):
     alpha = 0.05  # smoothing factor, adjust as needed
     divergence_threshold_percent = 0.03
     detect_face = 5#detect face every x frame
-    #expand_amount = 300
     expand_ratio = 0.15 #15 percent
     global distance #used to measure how much the given predicted frame has moved since last
     distance = 0
