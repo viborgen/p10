@@ -1,4 +1,4 @@
-# p10 Project Repository
+# P10 Project Repository
 This repository contains code for some projects described in the report. Below is the structure of the repository:
 
 ## Chapters
