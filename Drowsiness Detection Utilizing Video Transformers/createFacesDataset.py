@@ -40,7 +40,7 @@ def resample_and_split_video(video_path, output_dir, new_fps, clip_length):
 
     # Get the original video's FPS and set the frame skip rate
     original_fps = cap.get(cv2.CAP_PROP_FPS)
-    frame_skip = 5
+    frame_skip = round(original_fps / new_fps)
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     video_length = frame_count / original_fps
 
